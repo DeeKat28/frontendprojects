@@ -17,12 +17,10 @@ body {
   overflow-y: hidden;
 }
 
-.container {
+.card {
   background-color: hsl(0, 0%, 100%);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 0.8em;
   border-radius: 20px;
   width: 20%;
@@ -66,31 +64,31 @@ p {
 }
 
 @media (max-width: 1400px) {
-  .container {
+  .card {
     width: 25%;
   }
 }
 
 @media (max-width: 1200px) {
-  .container {
+  .card {
     width: 30%;
   }
 }
 
 @media (max-width: 1000px) {
-  .container {
+  .card {
     width: 40%;
   }
 }
 
 @media (max-width: 768px) {
-  .container {
+  .card {
     width: 60%;
   }
 }
 
 @media (max-width: 450px) {
-  .container {
+  .card {
     width: 80%;
   }
 }
